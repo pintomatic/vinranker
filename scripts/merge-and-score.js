@@ -6,7 +6,7 @@ const EXPONENT = Number(process.env.SCORE_EXPONENT || 2);
 
 function scoreWine(rating, price75) {
   if (!rating || rating < FLOOR || !price75) return 0;
-  return Number(((Math.pow(rating - 3.5, EXPONENT) * 100) / price75).toFixed(3));
+  return Number(((Math.pow(rating - FLOOR, EXPONENT) * 100) / price75).toFixed(3));
 }
 
 (async () => {
@@ -60,7 +60,6 @@ function scoreWine(rating, price75) {
   };
 
   writeJson(path.join(DATA_DIR, "wine-data.json"), output);
-  writeJson(path.join(__dirname, "wine-data.json"), output);
   console.log(JSON.stringify(output.stats, null, 2));
   if (warnings.length) console.warn(warnings.join("\n"));
 })();
