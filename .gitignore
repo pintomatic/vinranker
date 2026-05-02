@@ -20,8 +20,11 @@
 # production
 /build
 
-# generated wine pipeline data
-/data/
+# generated wine pipeline data (intermediate)
+/data/products*.json
+/data/ratings-cache.json
+/data/stock.json
+/data/spike-*.json
 /scripts/wine-data.json
 
 # misc
