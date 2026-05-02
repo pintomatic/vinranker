@@ -85,26 +85,30 @@ function peekCsvHeaders(csvText, label) {
  * Expected columns: wine_name, winery, rating, num_reviews, country, region
  */
 function loadDatasetA(csvPath) {
-  const raw = fs.readFileSync(csvPath, "utf8");
+  // Read as latin1 then re-encode — handles double-encoded UTF-8 (e.g. "EspaÃ±a" → "España")
+  const rawBytes = fs.readFileSync(csvPath, "latin1");
+  const raw = Buffer.from(rawBytes, "latin1").toString("utf8");
   peekCsvHeaders(raw, "Source A");
 
   const rows = parse(raw, { columns: true, skip_empty_lines: true, trim: true });
   console.log(`  → ${rows.length} rows parsed`);
 
   return rows.map((r) => ({
-    wine_name: r.wine_name || r.name || "",
-    winery: r.winery || "",
-    rating: parseFloat(r.rating) || null,
-    ratings_count: parseInt(r.num_reviews || r.ratings_count || r.num_ratings || "0", 10) || 0,
-    country: r.country || "",
-    region: r.region || "",
+    // Handle capitalized column names from this dataset: Wine, Winery, Rating, etc.
+    wine_name: r.Wine || r.wine_name || r.name || "",
+    winery: r.Winery || r.winery || "",
+    rating: parseFloat(r.Rating || r.rating) || null,
+    ratings_count: parseInt(r.num_review || r.num_reviews || r.ratings_count || r.num_ratings || "0", 10) || 0,
+    country: r.Country || r.country || "",
+    region: r.Region || r.region || "",
     source: "offline-a",
   })).filter((w) => w.wine_name && w.rating);
 }
 
 /**
- * Load Source B (supplement, ~8K red wines).
- * Expected columns: name, winery, rating, num_ratings
+ * Load Source B (global Vivino wines from boivinalex/vivino-recommenderpy).
+ * Columns: ,WineName,Winery,Country,Rating,NumberOfRatings,Price
+ * NumberOfRatings has " ratings" suffix (e.g. "492 ratings")
  */
 function loadDatasetB(csvPath) {
   const raw = fs.readFileSync(csvPath, "utf8");
@@ -114,12 +118,13 @@ function loadDatasetB(csvPath) {
   console.log(`  → ${rows.length} rows parsed`);
 
   return rows.map((r) => ({
-    wine_name: r.name || r.wine_name || "",
-    winery: r.winery || "",
-    rating: parseFloat(r.rating) || null,
-    ratings_count: parseInt(r.num_ratings || r.num_reviews || "0", 10) || 0,
-    country: r.country || "",   // Source B may not have this — degrades gracefully
-    region: r.region || "",
+    wine_name: r.WineName || r.name || r.wine_name || "",
+    winery: r.Winery || r.winery || "",
+    rating: parseFloat(r.Rating || r.rating) || null,
+    // NumberOfRatings may have " ratings" suffix — strip non-numeric chars
+    ratings_count: parseInt((r.NumberOfRatings || r.num_ratings || r.num_reviews || "0").replace(/[^\d]/g, ""), 10) || 0,
+    country: r.Country || r.country || "",
+    region: r.Region || r.region || "",
     source: "offline-b",
   })).filter((w) => w.wine_name && w.rating);
 }

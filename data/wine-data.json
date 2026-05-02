@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-02T18:06:34.768Z",
+  "timestamp": "2026-05-02T22:44:06.300Z",
   "sourceTimestamps": {
     "products": "2026-05-02T18:05:30.455Z",
-    "stock": null,
+    "stock": "2026-05-02T18:13:08.874Z",
     "ratingsFetchedFrom": "ratings-cache.json"
   },
   "config": {
@@ -11,16 +11,96 @@
   },
   "stats": {
     "total": 96,
-    "rated": 0,
-    "unrated": 96,
-    "matchRate": 0,
-    "top10Under200": 0
+    "rated": 4,
+    "unrated": 92,
+    "matchRate": 0.042,
+    "top10Under200": 3
   },
   "warnings": [
-    "Top 10 includes 0 wines under 200 NOK; consider SCORE_EXPONENT=1.75 then 1.5.",
-    "Rated tab has 0 wines; consider RATING_FLOOR=3.3 for v1."
+    "Rated tab has 4 wines; consider RATING_FLOOR=3.3 for v1."
   ],
-  "rated": [],
+  "rated": [
+    {
+      "varenummer": "295302",
+      "name": "Gato Negro Cabernet Sauvignon 2024",
+      "category": "Rødvin",
+      "country": "Chile",
+      "district": "Valle Central",
+      "alcohol": 11,
+      "volumeCl": 37.5,
+      "price": 68.9,
+      "price75": 137.8,
+      "url": "https://www.vinmonopolet.no/Land/Chile/Valle-Central/Gato-Negro-Cabernet-Sauvignon-2024/p/295302",
+      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/295302-1.jpg",
+      "vivinoRating": 4.1,
+      "vivinoRatingsCount": 769,
+      "vivinoName": "Tom Gore Cabernet Sauvignon 2018",
+      "matchScore": 0.759,
+      "score": 0.261,
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
+    },
+    {
+      "varenummer": "137202",
+      "name": "Marqués de Cáceres Crianza 2022",
+      "category": "Rødvin",
+      "country": "Spania",
+      "district": "Rioja",
+      "alcohol": 13.5,
+      "volumeCl": 37.5,
+      "price": 89.9,
+      "price75": 179.8,
+      "url": "https://www.vinmonopolet.no/Land/Spania/Rioja/Marqu%C3%A9s-de-C%C3%A1ceres-Crianza-2022/p/137202",
+      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/137202-1.jpg",
+      "vivinoRating": 3.7,
+      "vivinoRatingsCount": 5767,
+      "vivinoName": "Marqués de Cáceres Rioja Crianza 2017",
+      "matchScore": 0.887,
+      "score": 0.022,
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
+    },
+    {
+      "varenummer": "5512004",
+      "name": "Segura Viudas Brut Reserva",
+      "category": "Musserende vin",
+      "country": "Spania",
+      "district": "Cava",
+      "alcohol": 12,
+      "volumeCl": 20,
+      "price": 69.9,
+      "price75": 262.13,
+      "url": "https://www.vinmonopolet.no/Land/Spania/Cava/Segura-Viudas-Brut-Reserva/p/5512004",
+      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/5512004-1.jpg",
+      "vivinoRating": 3.7,
+      "vivinoRatingsCount": 114,
+      "vivinoName": "Segura Viudas Mas d'Aranyó Reserva 2015",
+      "matchScore": 0.806,
+      "score": 0.015,
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
+    },
+    {
+      "varenummer": "11184504",
+      "name": "Viña Albali Tempranillo Shiraz",
+      "category": "Rødvin",
+      "country": "Spania",
+      "district": "Castilla La Mancha",
+      "alcohol": 13,
+      "volumeCl": 18.7,
+      "price": 49.6,
+      "price75": 198.93,
+      "url": "https://www.vinmonopolet.no/Land/Spania/Castilla-La-Mancha/Castilla/Vi%C3%B1a-Albali-Tempranillo-Shiraz/p/11184504",
+      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/11184504-1.jpg",
+      "vivinoRating": 3.6,
+      "vivinoRatingsCount": 841,
+      "vivinoName": "Viña Zaco Tempranillo (Crianza) 2014",
+      "matchScore": 0.8,
+      "score": 0.005,
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
+    }
+  ],
   "unrated": [
     {
       "varenummer": "15330801",
@@ -39,8 +119,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "20119301",
@@ -59,8 +139,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19435801",
@@ -79,8 +159,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1361001",
@@ -99,8 +179,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "14013301",
@@ -119,8 +199,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "12972501",
@@ -139,8 +219,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "7459802",
@@ -159,8 +239,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19436201",
@@ -179,8 +259,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "14134501",
@@ -199,8 +279,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "17117801",
@@ -219,8 +299,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "11904604",
@@ -239,8 +319,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "16895901",
@@ -259,8 +339,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "17071801",
@@ -279,8 +359,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10921402",
@@ -299,8 +379,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19230902",
@@ -319,28 +399,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
-    },
-    {
-      "varenummer": "295302",
-      "name": "Gato Negro Cabernet Sauvignon 2024",
-      "category": "Rødvin",
-      "country": "Chile",
-      "district": "Valle Central",
-      "alcohol": 11,
-      "volumeCl": 37.5,
-      "price": 68.9,
-      "price75": 137.8,
-      "url": "https://www.vinmonopolet.no/Land/Chile/Valle-Central/Gato-Negro-Cabernet-Sauvignon-2024/p/295302",
-      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/295302-1.jpg",
-      "vivinoRating": null,
-      "vivinoRatingsCount": null,
-      "vivinoName": null,
-      "matchScore": null,
-      "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "13106802",
@@ -359,8 +419,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "260502",
@@ -379,8 +439,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "11898802",
@@ -399,8 +459,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "16908804",
@@ -419,8 +479,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "942302",
@@ -439,8 +499,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19504002",
@@ -459,8 +519,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "13031804",
@@ -479,8 +539,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19300902",
@@ -499,8 +559,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "17248202",
@@ -519,8 +579,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "151302",
@@ -539,8 +599,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1169302",
@@ -559,8 +619,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19250804",
@@ -579,8 +639,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10890404",
@@ -599,8 +659,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "16829404",
@@ -619,8 +679,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "11931202",
@@ -639,8 +699,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "17115304",
@@ -659,8 +719,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1202802",
@@ -679,8 +739,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "3765402",
@@ -699,8 +759,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "20157302",
@@ -719,8 +779,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19360902",
@@ -739,8 +799,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "14426904",
@@ -759,8 +819,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "635802",
@@ -779,8 +839,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "15513404",
@@ -799,8 +859,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "20469404",
@@ -819,28 +879,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
-    },
-    {
-      "varenummer": "137202",
-      "name": "Marqués de Cáceres Crianza 2022",
-      "category": "Rødvin",
-      "country": "Spania",
-      "district": "Rioja",
-      "alcohol": 13.5,
-      "volumeCl": 37.5,
-      "price": 89.9,
-      "price75": 179.8,
-      "url": "https://www.vinmonopolet.no/Land/Spania/Rioja/Marqu%C3%A9s-de-C%C3%A1ceres-Crianza-2022/p/137202",
-      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/137202-1.jpg",
-      "vivinoRating": null,
-      "vivinoRatingsCount": null,
-      "vivinoName": null,
-      "matchScore": null,
-      "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "67002",
@@ -859,8 +899,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "4733902",
@@ -879,8 +919,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "863702",
@@ -899,8 +939,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "12992502",
@@ -919,8 +959,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "14013304",
@@ -939,8 +979,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "13989502",
@@ -959,8 +999,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "4109902",
@@ -979,8 +1019,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "139302",
@@ -999,8 +1039,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "15360904",
@@ -1019,8 +1059,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "8015002",
@@ -1039,8 +1079,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "106802",
@@ -1059,8 +1099,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19256202",
@@ -1079,8 +1119,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "13466204",
@@ -1099,28 +1139,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
-    },
-    {
-      "varenummer": "11184504",
-      "name": "Viña Albali Tempranillo Shiraz",
-      "category": "Rødvin",
-      "country": "Spania",
-      "district": "Castilla La Mancha",
-      "alcohol": 13,
-      "volumeCl": 18.7,
-      "price": 49.6,
-      "price75": 198.93,
-      "url": "https://www.vinmonopolet.no/Land/Spania/Castilla-La-Mancha/Castilla/Vi%C3%B1a-Albali-Tempranillo-Shiraz/p/11184504",
-      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/11184504-1.jpg",
-      "vivinoRating": null,
-      "vivinoRatingsCount": null,
-      "vivinoName": null,
-      "matchScore": null,
-      "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "17279704",
@@ -1139,8 +1159,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "18243104",
@@ -1159,8 +1179,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "17073104",
@@ -1179,8 +1199,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "15610604",
@@ -1199,8 +1219,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "14092904",
@@ -1219,8 +1239,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "14427404",
@@ -1239,8 +1259,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "2288804",
@@ -1259,8 +1279,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "2288904",
@@ -1279,8 +1299,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "2289004",
@@ -1299,8 +1319,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19176204",
@@ -1319,8 +1339,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19175904",
@@ -1339,8 +1359,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10099804",
@@ -1359,8 +1379,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1151304",
@@ -1379,8 +1399,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "3358304",
@@ -1399,8 +1419,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10216004",
@@ -1419,8 +1439,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "19511004",
@@ -1439,8 +1459,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "93204",
@@ -1459,8 +1479,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "7391404",
@@ -1479,8 +1499,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "15549804",
@@ -1499,8 +1519,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "5977006",
@@ -1519,8 +1539,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "5977106",
@@ -1539,8 +1559,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "4935604",
@@ -1559,8 +1579,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "16832704",
@@ -1579,8 +1599,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "11184604",
@@ -1599,8 +1619,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1279904",
@@ -1619,8 +1639,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "3935704",
@@ -1639,8 +1659,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "489304",
@@ -1659,8 +1679,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "12710404",
@@ -1679,8 +1699,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "15500204",
@@ -1699,8 +1719,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1277104",
@@ -1719,28 +1739,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
-    },
-    {
-      "varenummer": "5512004",
-      "name": "Segura Viudas Brut Reserva",
-      "category": "Musserende vin",
-      "country": "Spania",
-      "district": "Cava",
-      "alcohol": 12,
-      "volumeCl": 20,
-      "price": 69.9,
-      "price75": 262.13,
-      "url": "https://www.vinmonopolet.no/Land/Spania/Cava/Segura-Viudas-Brut-Reserva/p/5512004",
-      "image": "https://bilder.vinmonopolet.no/cache/300x300-0/5512004-1.jpg",
-      "vivinoRating": null,
-      "vivinoRatingsCount": null,
-      "vivinoName": null,
-      "matchScore": null,
-      "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10836904",
@@ -1759,8 +1759,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "8134304",
@@ -1779,8 +1779,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "2199404",
@@ -1799,8 +1799,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "125904",
@@ -1819,8 +1819,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "1135704",
@@ -1839,8 +1839,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "7440704",
@@ -1859,8 +1859,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "in_stock",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "3821404",
@@ -1879,8 +1879,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10837004",
@@ -1899,8 +1899,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "10090604",
@@ -1919,8 +1919,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     },
     {
       "varenummer": "3883904",
@@ -1939,8 +1939,8 @@
       "vivinoName": null,
       "matchScore": null,
       "score": 0,
-      "stockStatus": "unchecked",
-      "stockStore": null
+      "stockStatus": "not_found",
+      "stockStore": "Oslo, Storo"
     }
   ]
 }
