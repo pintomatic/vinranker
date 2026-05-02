@@ -27,6 +27,9 @@
 /data/spike-*.json
 /scripts/wine-data.json
 
+# Vivino offline datasets (20MB+, download manually from Kaggle)
+/data/vivino-dataset-*.csv
+
 # misc
 .DS_Store
 *.pem
