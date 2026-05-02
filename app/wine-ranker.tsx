@@ -52,7 +52,7 @@ function stars(rating: number | null) {
   return `${rating.toFixed(1)} / 5`;
 }
 
-export default function WineRanker({ data, dataUrl }: { data: WineData; dataUrl: string }) {
+export default function WineRanker({ data, dataUrl }: { data: WineData; dataUrl?: string | null }) {
   const [tab, setTab] = useState<"rated" | "unrated">("rated");
   const [category, setCategory] = useState("All");
   const [maxPrice, setMaxPrice] = useState(500);
@@ -199,7 +199,7 @@ export default function WineRanker({ data, dataUrl }: { data: WineData; dataUrl:
         <footer className="mt-8 border-t border-[#d7d2c4] py-5 text-sm leading-6 text-[#60634f]">
           Stock data from {formatDate(data.sourceTimestamps.stock)}. Ratings from Vivino, fetched via {data.sourceTimestamps.ratingsFetchedFrom}. Contact:
           {" "}
-          <a className="font-semibold underline" href="mailto:cesar.a.pinto@gmail.com">cesar.a.pinto@gmail.com</a>. Data endpoint: {dataUrl}.
+          <a className="font-semibold underline" href="mailto:cesar.a.pinto@gmail.com">cesar.a.pinto@gmail.com</a>{dataUrl ? `. Data: ${dataUrl}` : ""}.
         </footer>
       </section>
     </main>
